@@ -15,6 +15,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Cihema</title>
+    <link rel="webSite icon" type="png" href="images/download.png">
 </head>
 
 <body>
@@ -188,47 +189,39 @@
                 <div class="col-md-4">
                     <img src="images/about-img.jpg" class="rounded my-3" alt="" width="100%">
                 </div>
-                <div class="col-md-4">
-                    <div class="mail-box">
-                        <div class="text-white">
-                            <h3>Request a Quote</h3>
-                            <span>Your Name</span>
-                            <li><input class="i" type="text" placeholder="Your Name"></li>
+                <div class="M col-md-4">
+                    <div class="form_head pt-5">
+                        <h2 class="text-white">Request a Quote</h2>
+                    </div>
+                    <div class="form text-white">
+                        <label for="basic-url" class="form-label">Your Name</label>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" aria-label="Username" aria-describedby="basic-addon1">
                         </div>
-                        <div class="d-flex my-3 text-white">
-                            <div>
-                                <span>Moving From</span>
-                                <li><input class="f" type="city" placeholder="city/state"></li>
-                            </div>
-                            <div class="T ms-3">
-                                <span>Moving To</span>
-                                <li><input class="t" type="city" placeholder="city/state"></li>
-                            </div>
+                        <label for="basic-url" class="form-label">Moving From - Moving To</label>
+                        <div class="input-group mb-3">                          
+                            <input type="text" class="form-control" placeholder="City/State" aria-label="Username">
+                            <input type="text" class="form-control" placeholder="City/State" aria-label="Server">
                         </div>
-                        <div class="text-white">
-                            <span>Date</span>
-                            <li><input class="d" type="Date"></li>
+
+                        <label for="basic-url" class="form-label">Date</label>
+                        <div class="input-group mb-3">
+                            <input type="date" class="form-control" id="basic-url" aria-describedby="basic-addon3">
                         </div>
-                        <div class="my-3 text-white">
-                            <span>Move Type</span>
-                            <div class="my-1 dropdown-center">
-                                <button class="m btn bg-white text-dark dropdown-toggle" type=""
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Moving Type
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Move Type</a></li>
-                                    <li><a class="dropdown-item" href="#">private Local</a></li>
-                                    <li><a class="dropdown-item" href="#">Business Local</a></li>
-                                    <li><a class="dropdown-item" href="#">Business Regional</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="text-white">
-                            <span>Email</span>
-                            <li><input class="e" type="email"></li>
-                        </div>
-                        <div class="my-3"><a class="btn-style-2 text-white" href="#">SEND REQUEST</a></div>
+                        <label for="basic-url" class="form-label">Move Type</label>
+                        <div class="input-group mb-3">
+                            <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                              <option selected="">Move Type</option>
+                              <option value="1">Private Local</option>
+                              <option value="2">Business Local</option>
+                              <option value="3">Business Regional</option>
+                            </select>
+                          </div>
+                          <label for="basic-url" class="form-label">Email</label>
+                          <div class="input-group mb-3">
+                              <input type="email" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                          <div class="button ms-3"><a class="B btn btn-danger" href="#" role="button">SEND REQUEST</a></div>
                     </div>
                 </div>
             </div>

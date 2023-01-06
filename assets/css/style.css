@@ -12,6 +12,9 @@ body {
 }.head-2 .ms-3 .bg {
     background-color: #012a5e;
 }
+ .M {
+    background-color: #012a5e;
+}
 .head-1 {
     background-color: #012a5e;
 }
@@ -102,52 +105,8 @@ body {
     background-color: #ee4155;
     transition: all 0.3s ease-in-out;
 }
-.col-md-4 .mail-box {
-    border: 1px solid rgba(255,255,255,0.3);
-    padding: 25px;
-    border-radius: 10px;
-    background-color: #012a5e;
-}
-.mail-box .i {
-    padding: 20px 150px 20px 5px;
-    border-radius: 10px;
-}
-.mail-box .m {
-    padding: 20px 185px 20px 5px;
-    border-radius: 10px;
-}
-.mail-box .d {
-    padding: 20px 185px 20px 5px;
-    border-radius: 10px;
-}
-.mail-box .f {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 5px;
-    margin-right: -5px;
-    border-radius: 10px;
-}
-.mail-box .t {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 5px;
-    margin-right: -10px;
-    border-radius: 10px;
-}
-.mail-box .e {
-    padding: 20px 150px 20px 5px;
-    border-radius: 10px;
-}
-.btn-style-2 {
-    border-radius: 5px;
-    position: relative;
-    padding: 10px 100px;
-    font-size: 14px;
-    text-align: center;
-    font-weight: 600;
-    text-decoration: none;
-    display: inline-block;
-    background-color: #ee4155;
+.moving-service .M {
+    border-radius: 30px;
 }
 .services {
     background: linear-gradient(45deg,#012a5e,#dc3545);
